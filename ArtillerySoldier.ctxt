@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ArtillerySoldier
+comment0.text=\r\n\ The\ ArtillerySolider\ is\ the\ only\ controllable\ class\ in\ this\ scenario\r\n\ It's\ only\ ability\ is\ to\ shoot\ the\ enemies\ where\ it\ can\ deal\ damage\r\n\ You\ can\ control\ this\ class\ using\ the\ arrow\ keys\ up\ and\ down.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=ArtillerySoldier()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ArtillerySolider.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ ArtillerySoldier\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\r\n\ Whenever\ the\ NFC\ is\ scanned,\ then\ it\ will\ increase\ the\ speed\ of\ the\ Artillery\ Soldier\r\n\ from\ 4\ to\ 7\ (Vertically).\r\n
+comment4.params=
+comment4.target=void\ spaceShooting()
+comment4.text=\r\n\ This\ method\ allows\ the\ Artillery\ to\ shoot\ when\ pressing\ the\ space\ button\r\n\ The\ bullet\ will\ include\ a\ timer,\ it\ will\ initially\ have\ a\ wait\ time\ of\ 100px\r\n\ After\ the\ time\ finish,\ you\ will\ be\ able\ to\ shoot,\ but\ you'll\ have\ to\ wait\ for\r\n\ another\ 60px\ after\ shooting.\r\n
+comment5.params=
+comment5.target=void\ removeSoldierAndBullet()
+comment5.text=\r\n\ This\ method\ removes\ the\ Enemies\ and\ Bullet\ whenever\ this\ class\ touches\ them\r\n\ When\ touching\ the\ objects,\ then\ it\ will\ lose\ points\ and\ play\ a\ sound.\r\n
+comment6.params=
+comment6.target=void\ move()
+comment6.text=\r\n\ This\ method\ moves\ the\ Artillery\ up\ and\ down\ by\ pressing\ the\ \r\n\ arrow\ keys\ "up"\ and\ "down"\ with\ a\ certain\ speed\r\n\ In\ addition,\ it\ restricts\ the\ x\ and\ y\ coordinates\ to\ prevent\ bypassing\ the\ scoreboard\ and\ screen.\r\n
+comment7.params=
+comment7.target=void\ fireBullet()
+comment7.text=\r\n\ This\ method\ sets\ the\ location\ of\ the\ bullet\ to\ the\ ArtillerySolider\r\n\ It\ sets\ in\ the\ right\ place\ where\ it\ shoots\ at.\ \r\n
+numComments=8

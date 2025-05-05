@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WinDisplay
+comment0.text=\r\n\ You\ Win\!\ This\ is\ a\ win\ class\ that\ will\ be\ display\ if\ you\ finished\ the\ level.\ It\ includes\ the\ title\ of\ the\ art\r\n\ and\ the\ QR\ code\ if\ you\ want\ to\ learn\ more\ about\ it.\ When\ you\ click,\ then\ it\ goes\ back\r\n\ to\ title\ screen.\ I\ added\ sound\ effects\ and\ background\ to\ spice\ it\ up.\ Visuals\ by\ me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\ \r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=WinDisplay()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WinDisplay.\r\n
+comment2.params=myGameManager
+comment2.target=WinDisplay(GameManager)
+comment2.text=\r\n\ This\ 1-arg\ constructor\ is\ called\ from\ the\ NfcStartScreen\ calss\r\n\ and\ allows\ access\ to\ the\ GameManager\ object\ that\ helps\r\n\ to\ maintain\ data\ from\ one\ world\ to\ the\ next\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Simply\ plays\ music\ and\ goes\ back\ to\ the\ title\ screen\ when\ the\ user\ click\ the\ screen.\r\n
+comment4.params=
+comment4.target=void\ stopped()
+comment4.text=\r\n\ Whenever\ the\ user\ press\ the\ pause\ button\ to\ start\ the\ game\r\n\ then\ the\ song\ stops\ at\ the\ same\ time.\r\n
+comment5.params=
+comment5.target=void\ started()
+comment5.text=\r\n\ When\ the\ game\ is\ paused\ and\ the\ user\ decided\ to\ click\ the\ play\r\n\ then\ the\ song\ starts\ back\ again\ at\ the\ same\ time.\r\n
+comment6.params=
+comment6.target=GameManager\ getReferenceToCurrentGameManager()
+comment6.text=\r\n\ Enables\ an\ instance\ of\ another\ class\ (such\ as\ Crab\ or\ Lobster)\ to\ get\ a\ reference\r\n\ to\ the\ current\ GameManager\ object\ (note\ that\ the\ return\ type\r\n\ of\ this\ method\ is\ `GameManager`)\r\n\ \r\n\ @return\ a\ reference\ to\ the\ current\ GameManager\ object\ \r\n
+numComments=7

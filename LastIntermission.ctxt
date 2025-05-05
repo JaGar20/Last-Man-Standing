@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LastIntermission
+comment0.text=\r\n\ An\ intermission/transition,\ a\ guide\ on\ how\ to\ win\ Winter\ Field.\ \r\n\ Added\ sound\ effects\ to\ spice\ it\ up.\ Visuals\ by\ me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=LastIntermission()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LastNextStage.\r\n
+comment2.params=myGameManager
+comment2.target=LastIntermission(GameManager)
+comment2.text=\r\n\ This\ 1-arg\ constructor\ is\ called\ from\ the\ NfcStartScreen\ calss\r\n\ and\ allows\ access\ to\ the\ GameManager\ object\ that\ helps\r\n\ to\ maintain\ data\ from\ one\ world\ to\ the\ next\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ act\ method\ calls\ from\ other\ methods\r\n
+comment4.params=
+comment4.target=void\ nextIntermissionClick()
+comment4.text=\r\n\ The\ user\ clicks\ on\ the\ screen,\ it\ will\ be\ sent\ to\ the\ Winter\ Field\ (playable\ class)\r\n
+comment5.params=
+comment5.target=GameManager\ getReferenceToCurrentGameManager()
+comment5.text=\r\n\ Enables\ an\ instance\ of\ another\ class\ (such\ as\ Crab\ or\ Lobster)\ to\ get\ a\ reference\r\n\ to\ the\ current\ GameManager\ object\ (note\ that\ the\ return\ type\r\n\ of\ this\ method\ is\ `GameManager`)\r\n\ \r\n\ @return\ a\ reference\ to\ the\ current\ GameManager\ object\ \r\n
+numComments=6

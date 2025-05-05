@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\r\n\ The\ first\ thing\ that\ show\ when\ starting\ the\ game,\ it\ displays\ a\ title\ screen\ with\ an\ image\ \r\n\ When\ is\ clicked,\ then\ it\ head\ to\ the\ next\ level.\ There\ are\ a\ nice\ sound\ effect\ and\ background\ music\r\n\ to\ spice\ it\ up\ a\ bit.\ Visuals\ made\ by\ Me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\ \r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=TitleScreen()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TitleScreen.\r\n
+comment2.params=myGameManager
+comment2.target=TitleScreen(GameManager)
+comment2.text=\r\n\ This\ 1-arg\ constructor\ is\ called\ from\ the\ NfcStartScreen\ calss\r\n\ and\ allows\ access\ to\ the\ GameManager\ object\ that\ helps\r\n\ to\ maintain\ data\ from\ one\ world\ to\ the\ next\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ song\ starts\ playing\ when\ the\ user\ runs\ the\ game.\ In\ addition,\ when\ the\ user\ clicks\r\n\ then\ it\ will\ be\ sent\ to\ the\ next\ screen\ which\ is\ the\ instructions.\r\n
+comment4.params=
+comment4.target=void\ stopped()
+comment4.text=\r\n\ Whenever\ the\ user\ press\ the\ pause\ button\ to\ start\ the\ game\r\n\ then\ the\ song\ stops\ at\ the\ same\ time.\r\n
+comment5.params=
+comment5.target=void\ started()
+comment5.text=\r\n\ When\ the\ game\ is\ paused\ and\ the\ user\ decided\ to\ click\ the\ play\r\n\ then\ the\ song\ starts\ back\ again\ at\ the\ same\ time.\r\n
+comment6.params=
+comment6.target=GameManager\ getReferenceToCurrentGameManager()
+comment6.text=\r\n\ Enables\ an\ instance\ of\ another\ class\ to\ get\ a\ reference\r\n\ to\ the\ current\ GameManager\ object\ (note\ that\ the\ return\ type\r\n\ of\ this\ method\ is\ `GameManager`)\r\n\ \r\n\ @return\ a\ reference\ to\ the\ current\ GameManager\ object\ \r\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FirstIntermission
+comment0.text=\r\n\ After\ passing\ the\ first\ stage,\ this\ class\ shows\ up.\ \r\n\ Telling\ you\ that\ winter\ is\ here\ and\ you\ are\ being\ targeted.\ Visuals\ by\ me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=FirstIntermission()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ NextStage.\r\n
+comment2.params=myGameManager
+comment2.target=FirstIntermission(GameManager)
+comment2.text=\r\n\ This\ 1-arg\ constructor\ is\ called\ from\ the\ NfcStartScreen\ calss\r\n\ and\ allows\ access\ to\ the\ GameManager\ object\ that\ helps\r\n\ to\ maintain\ data\ from\ one\ world\ to\ the\ next\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Once\ clicked,\ then\ the\ user\ will\ get\ to\ the\ next\ intermission.\r\n
+comment4.params=
+comment4.target=GameManager\ getReferenceToCurrentGameManager()
+comment4.text=\r\n\ Enables\ an\ instance\ of\ another\ class\ (such\ as\ Crab\ or\ Lobster)\ to\ get\ a\ reference\r\n\ to\ the\ current\ GameManager\ object\ (note\ that\ the\ return\ type\r\n\ of\ this\ method\ is\ `GameManager`)\r\n\ \r\n\ @return\ a\ reference\ to\ the\ current\ GameManager\ object\ \r\n
+numComments=5

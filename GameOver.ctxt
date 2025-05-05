@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GameOver
+comment0.text=\r\n\ Game\ Over\!\ This\ class\ shows\ up\ whenever\ the\ user\ losses\ all\ the\ points\ or\ didn't\ \r\n\ meet\ expectations\ (Timer\ reaches\ zero\ but\ the\ score\ is\ below\ the\ expectations).\ Visuals\ by\ me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\ \r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=GameOver()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameOver.\r\n
+comment2.params=myGameManager
+comment2.target=GameOver(GameManager)
+comment2.text=\r\n\ This\ 1-arg\ constructor\ is\ called\ from\ the\ NfcStartScreen\ calss\r\n\ and\ allows\ access\ to\ the\ GameManager\ object\ that\ helps\r\n\ to\ maintain\ data\ from\ one\ world\ to\ the\ next\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ In\ this\ act\ method,\ whenever\ the\ user\ clicks\ the\ Gamer\ Over\ screen,\ then\ it\ will\ be\ sent\ back\ to\ the\ Title\ screen\r\n
+comment4.params=
+comment4.target=GameManager\ getReferenceToCurrentGameManager()
+comment4.text=\r\n\ Enables\ an\ instance\ of\ another\ class\ (such\ as\ Crab\ or\ Lobster)\ to\ get\ a\ reference\r\n\ to\ the\ current\ GameManager\ object\ (note\ that\ the\ return\ type\r\n\ of\ this\ method\ is\ `GameManager`)\r\n\ \r\n\ @return\ a\ reference\ to\ the\ current\ GameManager\ object\ \r\n
+numComments=5

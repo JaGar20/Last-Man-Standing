@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EnemyBullet
+comment0.text=\r\n\ This\ class\ goal\ is\ important\ for\ the\ Enemy\ to\ shoot\ the\ soldier.\ It\ sets\ the\ speed\ of\ the\ bullet\r\n\ and\ simply\ removes\ whenever\ it\ passes\ the\ screen.\r\n\ Taken\ from\ Greenfoot\ default\ image\ "beamer"\ and\ edit\ it.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\ \r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=EnemyBullet()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ EnemyBullet.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ EnemyBullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\r\n\ Whenever\ the\ started\ is\ to\ true\ the\ game\ start\r\n
+comment4.params=
+comment4.target=void\ removeBulletWhenZero()
+comment4.text=\r\n\ In\ this\ method,\ whenever\ the\ bullet\ reaches\ the\ X\ coordinate\ 0\ (left\ side)\r\n\ it\ removes\ the\ bullet\ in\ both\ classes\r\n
+numComments=5

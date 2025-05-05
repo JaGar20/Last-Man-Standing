@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=OpposingSoldier
+comment0.text=\r\n\ This\ class\ makes\ the\ enemies\ moves\ from\ right\ to\ left\ by\ a\ constant\ speed\ and\ it's\ goal\ is\ to\r\n\ attack\ the\ Artillery\ Soldier\ by\ shooting\ them\ and\ causes\ damage.\ The\ shooting\ will\ not\ be\ instant\ \r\n\ and\ will\ include\ a\ timer\ for\ it.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=OpposingSoldier()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ OpposingSoldier.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ OpposingSoldier\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ start()
+comment4.params=
+comment4.target=void\ shoot()
+comment4.text=\r\n\ Similar\ to\ the\ spaceShooting\ method\ from\ ArtillerySoldier\ class.\ The\ enemies\ will\ shoot\ with\ an\ initial\ timer\r\n\ In\ the\ first\ 110\ ms\ the\ enemies\ won't\ shoot\ until\ it\ reaches\ to\ 0.\ After\ shooting\ for\ the\ first\ time,\r\n\ then\ the\ firing\ delay\ sets\ from\ 110\ to\ 150.\ \r\n
+comment5.params=
+comment5.target=void\ touchSoldier()
+comment5.text=\r\n\ This\ method\ removes\ the\ bullet\ in\ two\ cases\r\n\ First\ if\ the\ bullet\ reaches\ to\ zero\ (passes\ the\ left\ side\ of\ screen)\ then\ it\ will\ be\ removed.\ \r\n\ If\ the\ bullet\ touches\ the\ ArtillerySoldier,\ then\ it\ will\ remove\ the\ bullet\ AND\r\n\ change\ the\ score.\r\n
+numComments=6

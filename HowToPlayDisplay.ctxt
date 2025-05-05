@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HowToPlayDisplay
+comment0.text=\r\n\ Instructions\ incase\ if\ a\ person\ dosen't\ read\ the\ "READ\ ME"\ text,\ like\ me.\ \r\n\ Not\ required,\ but\ is\ perferred\ (for\ me).\r\n\ Added\ sound\ effect\ to\ spice\ it\ up.\ Visuals\ by\ me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\ \r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=HowToPlayDisplay()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ InstructionDisplay.\r\n
+comment2.params=myGameManager
+comment2.target=HowToPlayDisplay(GameManager)
+comment2.text=\r\n\ This\ 1-arg\ constructor\ is\ called\ from\ the\ NfcStartScreen\ calss\r\n\ and\ allows\ access\ to\ the\ GameManager\ object\ that\ helps\r\n\ to\ maintain\ data\ from\ one\ world\ to\ the\ next\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ user\ clicks\ on\ the\ screen,\ it\ will\ be\ sent\ to\ the\ Battle\ Field\ (playable\ class)\r\n\ The\ song\ also\ plays\ when\ this\ class\ is\ being\ used.\r\n
+comment4.params=
+comment4.target=GameManager\ getReferenceToCurrentGameManager()
+comment4.text=\r\n\ Enables\ an\ instance\ of\ another\ class\ (such\ as\ Crab\ or\ Lobster)\ to\ get\ a\ reference\r\n\ to\ the\ current\ GameManager\ object\ (note\ that\ the\ return\ type\r\n\ of\ this\ method\ is\ `GameManager`)\r\n\ \r\n\ @return\ a\ reference\ to\ the\ current\ GameManager\ object\ \r\n
+numComments=5

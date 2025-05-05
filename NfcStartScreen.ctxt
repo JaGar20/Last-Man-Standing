@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=NfcStartScreen
+comment0.text=\r\n\ This\ is\ the\ title\ screen\ for\ the\ "Little\ Crab"\ game.\ It\ allows\ the\ player\ to\r\n\ launch\ the\ game\ by\ plugging\ in\ an\ ACR122U\ smart\ card\ reader\ and\ placing\r\n\ a\ compatible\ NFC\ tag\ or\ card\ in\ contact\ with\ the\ reader.\ If\ the\ NFC\ tag\ is\ \r\n\ recognized,\ the\ instance\ variable\ `nfcEnabled`\ will\ be\ set\ to\ `true`\ in\ the\r\n\ `GameManager`\ object,\ which\ will\ be\ passed\ to\ an\ overloaded\ `CrabWorld`\ \r\n\ constructor\ so\ that\ the\ data\ are\ persistent\ within\ the\ game\ itself.\ Visuals\ by\ me.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\r\n\ @version\ Demo\ for\ CSCI/ISAT\ B145\ Fall\ 2023\ -\ last\ updated\ 2023.12.14\r\n
+comment1.params=
+comment1.target=NfcStartScreen()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ NfcStartScreen.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ `act`\ method\ is\ designed\ to\ require\ the\ game\r\n\ to\ be\ running\ before\ the\ smart\ card\ reader\ can\ be\ checked\r\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\r\n\ Rather\ than\ call\ methods\ from\ the\ constructor,\ use\ this\ `start`\ method\r\n\ to\ invoke\ methods\ that\ need\ to\ be\ called\ only\ ONCE\ after\ an\ object\r\n\ has\ been\ initialized.\ This\ programming\ pattern\ is\ similar\ to\ that\r\n\ used\ in\ game\ engines\ (like\ Unity)\ can\ ensure\ that\ all\ objects\ are\ \r\n\ initialized\ BEFORE\ invoking\ any\ of\ their\ methods.\ (Because\ objects\ are\r\n\ not\ initialized\ all\ at\ once,\ this\ helps\ prevent\ calling\ methods\ to\ \r\n\ objects\ that\ may\ not\ exist\ yet\!)\r\n
+comment4.params=
+comment4.target=void\ checkForNfcConnection()
+comment4.text=\r\n\ This\ method\ checks\ for\ a\ connected\ NFC\ smart\ card\ reader\r\n\ and\ waits\ for\ an\ NFC\ tag\ or\ card\ to\ be\ placed\ in\ contact\r\n\ with\ the\ reader.\r\n
+numComments=5

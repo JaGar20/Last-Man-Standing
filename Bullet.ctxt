@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ ArtillerySolider\ interactions,\ whenever\ the\ ArtillerySoldier\ shoots,\r\n\ then\ this\ class\ comes\ out.\ Its\ goal\ is\ to\ shoot\ to\ the\ enemies\ which\ will\ deal\ damage.\r\n\ This\ mechanic\ is\ important\ for\ winning\ the\ game.\r\n\ Taken\ from\ Greenfoot\ default\ image\ "beamer"\ and\ edit\ it.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\ \r\n\ @version\ 2023.12.15\ (Final\ Project\ ISATB145)\r\n
+comment1.params=
+comment1.target=Bullet()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bullet.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Bullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ lookForEnemy()
+comment3.text=\r\n\ This\ method\ allows\ the\ bullet\ to\ move/modify.\ Whenever\ it\ hits\ an\ enemy\ the\ score\ increases\r\n\ and\ plays\ a\ sound.\ I\ also\ want\ to\ make\ it\ more\ realistic,\ so\ I\ make\ it\ stop\ in\ a\ certain\ coordinate\ so\ it\ \r\n\ portrays\ as\ a\ arch\ (like\ a\ canon).\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GameManager
+comment0.text=\r\n\ This\ "helper\ class"\ (which\ is\ NOT\ a\ subclass\ of\ Actor\ or\ World)\ can\ be\ used\ \r\n\ to\ keep\ track\ of\ the\ state\ of\ the\ scenario\ even\ if\ a\ new\ World\ subclass\r\n\ is\ loaded\ into\ memory.\ \r\n\ \r\n\ Please\ treat\ this\ version\ of\ GameManager\ as\ another\ example\ of\ how\ it\ can\r\n\ be\ used\ in\ your\ game,\ in\ addition\ to\ the\ version\ of\ GameManager\ that\ was\r\n\ included\ in\ the\ `greenfoot-pengu-gamemanager`\ scenario\ that\ you\ can\ \r\n\ download\ from\ Blackboard.\r\n\ \r\n\ @author\ jasoneg@email.uscb.edu\r\n\ @version\ 2023.12.08\r\n
+comment1.params=
+comment1.target=GameManager()
+comment1.text=\r\n\ This\ no-arg\ constructor\ should\ be\ used\ if\ you\ want\ to\ "reset"\ the\r\n\ state\ of\ the\ scenario.\ Be\ sure\ to\ initialize\ *each*\ of\ the\ instance\ \r\n\ variables\ you\ have\ declared\ at\ the\ top\ of\ this\ class\ definition.\r\n
+comment2.params=
+comment2.target=boolean\ isNfcEnabled()
+comment2.text=\r\n\ A\ public\ "getter"\ (accessor)\ method\ to\ enable\r\n\ access\ to\ the\ GameManager's\ nfcEnabled\ state\ (true\ or\ false)\r\n\ \r\n\ @return\ true\ if\ the\ game's\ additional\ feature(s)\ are\ enabled\ by\ a\ detected\ NFC\ tag\ or\ card\r\n
+comment3.params=nfcEnabled
+comment3.target=void\ setNfcEnabled(boolean)
+comment3.text=\r\n\ A\ public\ "setter"\ (mutator)\ method\ to\ enable\ modification\ \r\n\ of\ the\ private\ `nfcEnabled`\ variable\r\n\ \r\n\ @param\ the\ value\ of\ `nfcEnabled`\ to\ set\r\n
+numComments=4
